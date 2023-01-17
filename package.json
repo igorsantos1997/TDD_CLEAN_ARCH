@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "typescript": "^4.9.4"
+  },
+  "name": "1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node dist/main/api"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "module-alias": "^2.2.2",
+    "rimraf": "^4.1.1"
+  }
+}
