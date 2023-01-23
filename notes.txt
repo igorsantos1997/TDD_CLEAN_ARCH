@@ -1,9 +1,0 @@
-git config --edit --global // Irá abrir as config do git em um editor
-
-[alias]
-	s = !git status -s
-	c = !git add . && git commit -m
-    amend = !git add . && git commit --amend --no-edit
-    l = !git log --pretty=format:'%cn'
-
-//git --amend integra o commit atual ao anterior ao invés de criar outro commit 
