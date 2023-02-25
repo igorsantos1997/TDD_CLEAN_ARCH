@@ -65,6 +65,7 @@ describe('FacebookAuthenticationService', () => {
     expect(userAccountRepo.saveWithFacebook).toHaveBeenCalledWith({ any: 'any' })
     expect(userAccountRepo.saveWithFacebook).toHaveBeenCalledTimes(1)
   })
+
   it('should call TokenGenerator with correct params', async () => {
     await sut.execute({ token })
 
